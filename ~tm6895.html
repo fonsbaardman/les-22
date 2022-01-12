@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="description" content="NHA webdesign les 22">
+    <meta name="keywords" content="NHA, webdesign">
+    <title>index.html</title>
+    
+    <style type="text/css">
+    /*body */
+ body {
+  background-color: #E81008;
+  margin: 0;
+ 
+}
+
+/* Style the header */
+.header {
+  background-color: #0D46E3;
+  padding: 20px;
+  text-align: center;
+  text-color: #FFFFFF;
+}
+/*glowing text*/
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+/* Large rounded green border */
+hr.nr1 {
+  border: 10px solid orange;
+  border-radius: 0px;
+}
+/*h text*/
+h1 {
+  text-shadow: 2px 2px;
+ font-size:70px;
+  color:#FFFFFF;
+}
+h2 {
+text-shadow: 3px 3 px;
+text-align:center;
+font-size: 30px;
+color: #FFFFFF 
+}
+/*animatie*/
+#myDIV {
+  
+  width: 150px;
+  height: 100px;
+  background-image:url('hond.gif');
+  position: relative;
+  animation: mymove 20s infinite;
+ 
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 1740px;}
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* container */
+.container {
+  position: relative;
+}
+
+img { 
+  width: 20%;
+  height: auto;
+  padding-top: 3%;
+  padding-bottom:3%;
+  padding-left: 10%;
+  opacity: 100%;
+}
+	
+	/*footer */
+ .footer {
+  background-color: #E7E709;
+  height: 200px;
+  text-align: center;
+  padding: 100px;
+}
+    </style>
+   
+	
+  
+  </head>
+  <body>
+  
+  
+  <h1 class="glow">Welkom bij les 22</h1>
+
+
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="overmij.html">Over Mij</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+
+
+
+<div id="myDIV"></div>
+<hr class="nr1">
+<h2>Fons Baardman heet u welkom bij de</h2><br>
+<h2>uitwerking van les 22</h2>
+
+<div class="container">
+  <img src="vlinder.jpg" alt="Vlinder" width="10" height="30">
+  <img src="hek.jpg" alt="Hek" width="10" height="30">
+  <img src="ice sheet.jpg" alt="Ice" width="10" height="30"><br>
+  <img src="tree.jpg" alt="Tree" width="10" height="30">
+  <img src="narcis.jpg" alt="Narcis" width="10" height="30">
+  <img src="speels.jpg" alt="Licht Inval" width="10" height="30"><br>
+  <img src="watergoud.jpg" alt="Watergoud" width="10" height="30">
+  <img src="mus.jpg" alt="Mus" width="10" height="30">
+  <img src="window.jpg" alt="Window" width="10" height="30">
+</div>
+<div class="footer">
+  <p>Footer</p>
+</div>
+  </body>
+</html>
